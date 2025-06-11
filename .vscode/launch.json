@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch BitPeek (CLI)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/bitpeek.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Launch BitPeek Web (Flask)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/bitpeek_web.py",
+      "console": "integratedTerminal",
+      "env": {
+        "FLASK_ENV": "development"
+      }
+    }
+  ]
+}
