@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "formulahendry.code-runner",
+    "esbenp.prettier-vscode"
+  ]
+}
